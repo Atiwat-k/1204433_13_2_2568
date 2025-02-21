@@ -49,6 +49,8 @@
 
 		<MauiImage Include="Resources\Images\Icons\*" />
 		<!-- <MauiImage Include="Resources\Images\Icons\icons8_camera_50.png" /> -->
+
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 </ItemGroup>
 
 
@@ -56,6 +58,7 @@
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 
